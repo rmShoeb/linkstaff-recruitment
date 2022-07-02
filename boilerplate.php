@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form action="#" method="post" class="row m-5">
+    <form action="<?php echo(htmlspecialchars($_SERVER['PHP_SELF'])) ?>" method="post" class="row m-5">
         <div class="col input-group m-1">
             <span class="input-group-text" id="basic-addon1">Operand 1</span>
             <input type="text" class="form-control" placeholder="Should be an integer">
